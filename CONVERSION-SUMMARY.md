@@ -66,7 +66,7 @@ The basic conversion is complete! To fully replicate the original HTML pages, yo
 1. **Convert Page Content**
    - Copy main content from `index.html` to `src/pages/Home.js`
    - Copy main content from `About.html` to `src/pages/About.js`
-   - Copy main content from `Register.html` to `src/pages/Register.js`
+   - Copy main content from `https://dashboard.capitaltrademarkets.net/Register` to `src/pages/Register.js`
    - Copy main content from `terms.html` to `src/pages/Terms.js`
 
 2. **Convert JavaScript Functionality**

@@ -1,0 +1,415 @@
+   .corporate-links a {margin: 0px 80px;}.primary-nav__item {line-height: 1.4;}.tabs__link {font-weight: 400;}.quiz-module__question-headline {font-weight: 400;}h1, h2, h3, h4, h5, h6 {font-family: "Gotham Narrow A", "Gotham Narrow B"!important;} body, p {font-family: "Gotham Narrow SSm A", "Gotham Narrow SSm B"!important;font-weight: 300!important;}@media screen and (max-width: 767px){.section-wrapper+.main-left-rail {margin: -60px 0 30px 0!important;}}
+
+/* Live Chat Radio Button Fix */
+.lp_radio_button label:before {
+  display: none!important;
+}
+#mod{
+    font-size: 16px !important;
+    padding-left: 5px;
+}
+
+
+#modalDiscounts input{
+    font-size: 16px !important;
+    padding-left: 5px;
+}
+</style>    <> 
+
+/*hero Image Adjustment*/
+.col.hero__media[data-column]{
+padding:0;
+}
+
+/*header sticky nav*/
+.header.sticky .utility-nav.customnavtest {
+	display: block;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+@media (min-width: 300px) {.utility-nav {
+    position: fixed!important;
+    top: 0!important;
+    width: 100%!important;
+    z-index: 3!important;
+    border-bottom: 1px solid #e8e8e8;
+}}
+
+@media screen and (min-width: 300px) {
+.primary-nav {
+   
+    top: 70px!important;
+    z-index: 2!important;
+   
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #ebf0f0;
+    color: #333;
+}}
+
+@media (min-width: 300px){
+.page-content {
+    margin-top: 70px;
+}
+}
+/* Banner Disclaimer for New Phone view*/
+@media (min-width: 300px) and ( max-width:930px){
+.bannerdiscalimer{
+top:50px!important;
+}
+}
+
+
+/*hero Image Adjustment*/
+@media (min-width: 768px) {
+.hero__media[data-img-align=bottom-off-grid]>img {
+ margin-top: -130px!important;
+}
+}
+
+
+/* Floating Mobile CTA */
+@media (max-width: 767px) {
+.bid-ask-bar-section {
+	padding: 0 0 !important;
+}
+.section-wrapper:first-child {
+	background-position: center bottom!important;
+	background-size: contain!important;
+}
+
+.multi-col__cta-btn.cta-btn.takeToUserEntity, .multi-col__cta-btn.cta-btn.continueToRead, .cta-btn.mobileon {
+	display: inline-block!important;
+}
+.footer {
+	padding-bottom: 50px!important;
+}
+.floatingcta {
+	display: inline-block;
+	padding: 20px 20px;
+	font-size: 1.4rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 15px;
+	letter-spacing: .01em;
+	text-decoration: none;
+	color: #fff!important;
+	background: #ff8c0f;
+	position: fixed;
+	bottom: 0;
+	z-index: 1;
+	width: 100%;
+	text-align: center;
+}
+.floatingcta:after {
+	content: ' \25ba';
+	padding-right: 0.5em;
+	color: #fff!important;
+        font-family: Arial;
+}
+.slick-dots {
+	display: none!important
+}
+}
+
+@media screen and (max-width: 767px) {
+.bid-ask-bar-section .bid-ask__product {
+	padding-bottom: 0px!important;
+}
+.bid-ask-bar-section .bid-ask__products {
+    padding: 10px 20px;
+}
+}
+
+/*reasons traders choose module*/
+.section-wrapper.multi-col-section.custom--jp.section-light#customJpMod3 {
+	background-color: #fff !important;
+}
+.col#trading {
+	border-right: 1px solid #C8D2D2;
+}
+.row.multi-col__content#divider {
+	border-top: 1px solid #C8D2D2;
+	margin-top: 0px !important;
+}
+
+@media (max-width: 770px) {
+.col#trading {
+	border: none !important;
+}
+}
+
+@media (max-width: 770px) {
+.row.multi-col__content#divider {
+	border: none !important;
+}
+}
+/* @media (min-width: 1024px) {.col#trading{min-height:265px !important;}} */
+
+
+/*trade your way module*/
+.row.multi-col__content#trade-your-way {
+	text-align: left !important;
+}
+.customUsMod2subhead {
+	font-size: 2.3rem;
+	font-weight: 550;
+}
+.col#trade-your-way-col-divider-first {
+	border-left: 5px solid #0855B4;
+	padding: 20px 25px;
+	background-color: white;
+	border-right: 30px solid #f0f0f0;
+}
+.col#trade-your-way-col-divider-last {
+	border-left: 5px solid #0855B4;
+	padding: 20px 25px;
+	background-color: white;
+}
+.col#trade-your-way-col-divider-full {
+	background-color: white;
+	margin: 20px -10px 20px 0px;
+}
+.col#trade-your-way-col-divider {
+	border-left: 5px solid #053c50;
+	padding: 20px 15px;
+}
+#customUsMod2-twocol .multi-col__content>.col[data-column="6"], #customUsMod2-twocol .col[data-column] {
+        padding: 0px!important;
+}
+#trade-your-way-col img {
+        vertical-align: bottom;
+}
+
+@media (max-width: 768px) {
+.col#trade-your-way-col-divider-first {
+	border: none !important;
+}
+}
+
+@media (max-width: 768px) {
+.col#trade-your-way-col-divider-last {
+	border: none !important;
+}
+}
+
+@media (max-width: 768px) {
+.col#trade-your-way-col-divider-full {
+	padding: 10px 10px;
+}
+}
+
+@media (max-width: 768px) {
+.col#trading {
+	padding-top: 0;
+}
+}
+/*two blocks trade your way module*/
+.row.multi-col__content#trade-your-way {
+	text-align: left !important;
+}
+.customsubhead {
+	font-size: 3rem;
+	font-weight: 400;
+}
+#customUsMod2-twocol {
+	padding-bottom: 30px;
+}
+.col#trade-your-way-col {
+	background-color: #f0f0f0;
+	border-right: solid white 25px;
+}
+.multi-col__description-twocol {
+        padding:20px;
+}       
+
+@media (max-width: 768px) {
+.col#trade-your-way-col {
+	padding: 25px 15px 0 15px;
+	border-left: solid white 5px;
+	border-right: solid white 5px;
+	border-top: solid white 5px;
+	margin-top: 0;
+}
+}
+
+@media (max-width: 768px) {
+.customsubhead {
+	font-size: 2.3rem;
+}
+}
+
+@media (max-width: 768px) {
+.multi-col__description-twocol {
+	margin: 0 34px 0 34px;
+}
+}
+
+@media (max-width: 768px) {
+#customUsMod2-twocol {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+}
+/* your ticket to the Forex market */
+
+.generic-hero-section .page__title {
+	text-align: center !important;
+}
+.cust-subhead {
+	font-size: 2.2rem;
+	font-weight: 200;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 10px;
+}
+.rates-table th {
+	color: #fff;
+	background-color: #053c50;
+}
+a.top-stories__link {
+	font-weight: 400;
+	margin-bottom: 15px !important;
+}
+.top-stories__list li {
+	border-bottom: 1px dashed #dbdbdc !important;
+}
+.top-stories__list .article-date {
+	font-weight: 400 !important;
+}
+td.rates-table__product {
+	font-weight: 500 !important;
+}
+td.rates-table__value {
+	font-weight: 500 !important;
+}
+.hero-two-section .top-stories-module .wrapper {
+	margin-top: -30px !important;
+}
+.current-rates-section.data-ready {
+	margin-top: -30px !important;
+}
+/* .section-wrapper.generic-hero-section>.wrapper{border-top:2px solid #0ab45b !important; border-right:2px solid #0ab45b !important; border-left:2px solid #0ab45b !important;}/* 
+
+
+/* ready to learn about forex */
+.multi-col__blocks li {
+	width: 24%;
+	padding: 0 15px;
+}
+.hover-state__wrapper .hover-state__content .cta-link {
+	margin: 0 0 50px 0!important;
+}
+.multi-col__blocks-item-content {
+	text-align: center;
+	width: 100%;
+	padding-left: 5px;
+}
+.multi-col__blocks-item-wrapper[data-sectionbg=""] .multi-col__blocks-headline {
+	color: #111;
+}
+.multi-col__blocks-item-wrapper[data-sectionbg=""] .multi-col__blocks-description {
+	font-size: 1.6rem;
+	color: #333;
+	line-height: 1.25;
+	letter-spacing: 0;
+}
+.multi-col__blocks-item {
+	padding: 25px 10px!important;
+}
+.multi-col__blocks-item-wrapper {
+	border: 0;
+}
+
+@media (max-width: 768px) {
+.multi-col__blocks li {
+	width: 100%;
+	padding: 0 0;
+	border: none !important;
+}
+}
+
+@media (max-width: 768px) {
+#imag1 {
+	width: auto;
+	right: 0!important;
+	left: auto;
+}
+}
+
+@media (max-width: 768px) {
+#imag4 {
+	width: auto;
+	left: 35px!important;
+}
+}
+
+@media (max-width: 768px) {
+.multi-col__blocks-headline {
+	font-size: 2rem;
+}
+}
+
+@media (max-width: 768px) {
+.multi-col__blocks-description-twocol {
+	padding-right: 40px;
+	padding-left: 23px;
+}
+}
+
+
+
+/* hero option transparent button */
+.white-transparent.cta-btn {
+	color: #fff!important;
+	background: none!important;
+	border: 1px solid #fff;
+	padding: 11.5px 19px;
+}
+/*custom nav */
+.utility-nav {
+	display: none;
+}
+.utility-nav.customnavtest {
+	display: block;
+}
+
+@media (max-width: 768px) {
+.utility-nav {
+	display: block;
+}
+.utility-nav.customnavtest {
+	display: none;
+}
+}
+
+/*override cta btn style on cta link n button group*/
+.cta-btn.default.cta-link {
+	background: none!important
+}
+
+.ank:hover {
+    background:white;
+    color: #0f3d0f;
+}
+/*
+     FILE ARCHIVED ON 06:21:00 Dec 11, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:32:01 Feb 03, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.533
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.011
+  esindex: 0.009
+  cdx.remote: 8.407
+  LoadShardBlock: 163.101 (3)
+  PetaboxLoader3.datanode: 148.9 (4)
+  load_resource: 107.867
+  PetaboxLoader3.resolve: 67.797
+*/
